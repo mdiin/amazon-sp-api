@@ -32,6 +32,7 @@ interface Options {
 }
 
 export interface Config {
+  api_endpoint?: string;
   region: "eu" | "na" | "fe";
   refresh_token?: string;
   access_token?: string;
